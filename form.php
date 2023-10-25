@@ -18,15 +18,15 @@ $new_text = str_replace($word, '***' ,$text);
 </head>
 <body>
     <div class="container my-5 text-center">
-        <div class="text">
+        <div class="text mb-5">
             <h2>Testo:</h2>
             <p><?php  echo  $text  ?></p>
-            <p>il tuo testo &egrave; di: <?php  echo  strlen($text)  ?> parole</p>
+            <p>il tuo testo &egrave; di: <strong><?php  echo  strlen($text)  ?></strong> parole</p>
         </div>
         <div class="new-text">
             <h2>Testo:</h2>       
             <p><?php  echo  $new_text  ?></p>
-            <p>il tuo testo &egrave; di: <?php  echo  strlen($new_text)  ?> parole</p>
+            <p>il tuo testo &egrave; di: <strong><?php  echo  strlen($new_text)  ?></strong> parole</p>
         </div>
 
     </div>
